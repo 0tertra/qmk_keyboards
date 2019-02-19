@@ -68,6 +68,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
 
+/* define encoders*/ 
+#define NUMBER_OF_ENCODERS 1
+#define ENCODERS_PAD_A { B12 }
+#define ENCODERS_PAD_B { B13 }
+#define ENCODER_RESOLUTION 4
+
 #ifdef SUBPROJECT_rev1
     #include "rev1/config.h"
 #endif
